@@ -29,15 +29,16 @@ class Application(Frame):
 	def reveal(self):
 		content = self.password.get()
 		if content == "password":
-			message = "good job"
+			message = "That is the correct password!"
 		else:
 			message = "Wrong password"
 		self.text.delete(0.0, END)
 		self.text.insert(0.0, message)
 
-root = Tk()
-root.title("Buttons using class")
-root.geometry("400x200")
+if __name_ == "__main__":
+	root = Tk()
+	root.title("Buttons and Inputs")
+	root.geometry("400x200")
 
-app = Application(root)
-root.mainloop()
+	app = Application(root)
+	root.mainloop()
