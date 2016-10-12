@@ -9,7 +9,7 @@ class Application(Frame):
 
 	def create_widgets(self):
 		self.instruction = Label(self)
-		self.instruction["text"] = "Enter the password:"
+		self.instruction["text"] = "Enter the password here:"
 		self.instruction.grid(row = 0, column = 0, sticky = W)
 
 		self.password = Entry(self)
