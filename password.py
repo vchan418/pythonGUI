@@ -35,7 +35,7 @@ class Application(Frame):
 		self.text.delete(0.0, END)
 		self.text.insert(0.0, message)
 
-if __name_ == "__main__":
+if __name__ == "__main__":
 	root = Tk()
 	root.title("Buttons and Inputs")
 	root.geometry("400x200")
